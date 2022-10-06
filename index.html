@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./pics/My-Neighbor-Totoro-PNG-Image.png" type="image/x-icon">
+    
+    <title>CADASTRE-SE GHIBLI </title>
+
+</head>
+
+<body>
+
+    <main>
+    
+    <h1>Viagem para o mundo de Studio Ghibli</h1>
+
+    <div class="container">
+
+        <form action="./segundo.html">
+
+            <label for="name"> 
+                <input type="name" placeholder="name:" id="name">
+
+            </label>
+            
+
+            <label for="email"> 
+
+                <input type="email" placeholder="email:" id="email" patter="[A-Za-z]{3}-[0-9]{4}" title="por favor utilize um email existente" required>
+
+            </label>
+           
+
+            <label for="password">
+
+                <input type="password" placeholder="senha:" id="password" 
+                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{8,20}$" title="Por favor utilize: Letra(s) maiúscula(s), Letra(s) minúscula(s), Numero(s) e no mínimo 8 caracteres." required>
+
+            </label>
+
+         <label for="button">
+
+           <input class="botao" type="submit" value="VIAJAR">
+
+         </label>        
+       
+
+        </form>
+
+    </div>
+
+</main>
+</body>
+</html>

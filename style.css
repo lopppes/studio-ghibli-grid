@@ -1,0 +1,65 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background-image: url(Studio_Ghibli_Castle_in_the_Sky_robot_anime_floating_island-239052.jpg!d);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+h1{
+    color: black;
+    font-weight: 600;
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+label{
+    display: block;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+input{
+    background-color: #0175f0;
+    border-radius: 2px;
+    border: solid 1px #d5ecfd;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    color: #d5ecfd;
+    box-shadow: 5px 5px 25px 1px #d5ecfd;
+    font-size: 18px;
+
+}
+input::placeholder{
+    color: #d5ecfd;
+
+}
+input:hover{
+    background-color: #0466cf;
+
+}
+.botao{
+    width: 230px;
+    font-size: 30px;
+    background-color: #7ab295;
+    color: black;
+    cursor: pointer;
+    
+
+}
+.botao:hover{
+    background-color: #64917a;
+    color: #d5ecfd;
+
+}
